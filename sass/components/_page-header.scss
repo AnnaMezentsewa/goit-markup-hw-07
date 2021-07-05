@@ -1,0 +1,16 @@
+/* Page header */
+.page-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  background-color: var(--primary-white-color);
+  border: 1px solid var(--header-border-color);
+}
+
+.page-header__container {
+  display: flex;
+  align-items: center;
+}

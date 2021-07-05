@@ -1,0 +1,35 @@
+/* Features */
+
+.features {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features__item {
+  flex-basis: calc((100% - 90px) / 4);
+  margin-right: 30px;
+
+  &:nth-child(4) {
+    margin-right: 0;
+  }
+}
+
+.features__title {
+  margin-bottom: 10px;
+
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  background-color: var(--second-background);
+  margin-bottom: 30px;
+}
